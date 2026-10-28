@@ -81,7 +81,7 @@ Bouton « Moi aussi » : le citoyen soutient un signalement existant ; le nombre
 - [x] Étape 5 — Tableau de bord, actions responsable, affectation, notifications, export CSV (migration `20261027090000_tableau_de_bord.sql`)
 - [x] Étape 6 — Vue agent, preuve de résolution géolocalisée, difficulté, confirmation/contestation citoyen (migration `20261028090000_interventions_agent.sql`)
 - [ ] Étape 7 — Priorité explicable en SQL, doublons (pg_trgm), « Moi aussi », classification IA + repli mots-clés (migration `20261029090000_priorite_doublons.sql`) + encart « Assistance IA » du tableau de bord (migration `20261030090000_assistance_ia.sql`) — en attente de validation
-- [ ] Étape 8 — README + guide de déploiement Vercel, scénario de démo minuté et vidéo de secours (DEMO.md) — en cours
+- [ ] Étape 8 — README + guide de déploiement Vercel, scénario de démo minuté et vidéo de secours (DEMO.md) — en cours · production : https://civisense-ai-three.vercel.app (dépôt github.com/Beni-Miansi/civisense-ai, privé)
 
 ## Conventions techniques (établies à l'étape 4)
 - `cacheComponents` actif : toute lecture de session/cookies se fait dans un composant async sous `<Suspense>` (jamais au niveau d'un layout ou d'une page).

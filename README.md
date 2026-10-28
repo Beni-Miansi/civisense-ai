@@ -5,6 +5,8 @@ assainissement, éclairage), prototype réalisé pour **Panafricode** en format 
 
 Boucle fermée : **signalement citoyen → priorité explicable → affectation → intervention → preuve photo → clôture → citoyen informé.**
 
+**Démo en ligne : https://civisense-ai-three.vercel.app** (données fictives de Dakar).
+
 ## Fonctionnalités
 
 | Rôle | Ce qu'il peut faire |
